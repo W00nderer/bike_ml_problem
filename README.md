@@ -4,10 +4,10 @@ I have attempted to solve my first regression machine learning problem using the
 
 ## Table of Contents:
 
-  - Preprocessing
-  - Hyperparameter tuning
-  - Kaggle Score
-  - Further Improvements
+  - [Preprocessing](#preprocessing)
+  - [Hyperparameter_Tuning](#hyperparameter_tuning)
+  - [Kaggle_Score](#kaggle_score)
+  - [Further_Improvements](#further_improvements)
   
 ## Preprocessing:
 
@@ -39,7 +39,7 @@ In the program, I used Pipeline technique to combine preprocessing and model tra
 
 <img width="556" height="307" alt="image" src="https://github.com/user-attachments/assets/356cf5fd-88b5-42a5-92ad-eadabcf32a0d" />
 
-## Hyperparameter Tuning:
+## Hyperparameter_Tuning:
 
 I used the following search space for hyperparameter tuning:
 
@@ -53,13 +53,13 @@ Finally, fitting the optimal model and saving the prediction for submission:
 
 <img width="559" height="267" alt="image" src="https://github.com/user-attachments/assets/ec08a817-c94b-410d-8cc4-008a8b5d2c82" />
 
-## Kaggle Score:
+## Kaggle_Score:
 
 The lowest score I could get on Kaggle was 128.3, which is a big improvement from the first submission of 800
 
 <img width="940" height="68" alt="image" src="https://github.com/user-attachments/assets/0a29958c-6992-4136-97ac-6c1a3f7079c8" />
 
-## Further Improvements:
+## Further_Improvements:
 I wanted to implement lagging/rolling features, but the dataset is missing many hours. This could be corrected by either adding the missing hours and filling in the missing data with mean values/forward filling for categorical data or converting hourly data to daily data. In this assignment, I had to submit all 1752 columns given in the test set, so this was not possible to implement. 
 I would also like try other regression models like Lasso, Ridge, LightGBM, etc. 
 
